@@ -7,15 +7,11 @@ function printBadges(names) {
   }
   return names;
 }
-//
-// while ([condition]) {
-//   [loop body]
-// }
-//
+
 function tailsNeverFails() {
   return Math.random() >= 0.5;
 }
- 
+
 while (tailsNeverFails()) {
   console.log(//'how many times?');
 }
