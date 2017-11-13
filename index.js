@@ -6,7 +6,6 @@ function printBadges() {
     console.log(`Welcome ${names[i]}! You are employee #[i-1].`);
   }
 
-  return names;
+  return printBadges(names);
 }
 
-printBadges(names);
